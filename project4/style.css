@@ -1,0 +1,95 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    margin-top: 70px;
+    margin-left: 300px;
+    background-color: unset;
+}
+.container
+{
+    height: 100%;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 30px;
+    justify-content: center;
+    
+    
+   
+   
+
+}
+.intro
+{
+    background-color: whitesmoke;
+    padding: 8px;
+   
+    
+    
+}
+.intro h2
+{
+    color: #0BCFEA ;
+    padding-left: 20px;
+    
+}
+.label2
+{
+   float: right;
+   padding-right: 5px;
+}
+
+.middle
+{
+    background-color:whitesmoke ;
+    padding: 30px;
+   
+}
+
+.footer
+{
+    background-color: whitesmoke ;
+    padding: 30px;
+    
+}
+.pet-select1,.pet-select2,.pet-select3
+{
+    margin-right: 20px;
+    font-size: 17px;
+    background-color: rgba(100, 89, 89, 0.61);
+}
+h2
+{
+    font-family:  'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#Insitute {
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #Insitute td, #Insitute th {
+    border: none;
+    padding: 8px;
+  }
+  
+  #Insitute tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Insitute tr:hover {background-color: #0CC6BB ;}
+  
+  #Insitute th {
+      margin-left: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #bec0bf8c;
+    color: rgb(46, 37, 37);
+  }

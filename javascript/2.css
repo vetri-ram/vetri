@@ -1,0 +1,22 @@
+.c1
+{
+    color:#F81203 ;
+    font-size: 25px;
+}
+.c2
+{
+    background-color: #10BD20;
+}
+.c3
+{
+    text-align: center;
+}
+
+table, th, td
+{
+    margin-top: 20px;
+    border: 2px solid lightslategray;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}

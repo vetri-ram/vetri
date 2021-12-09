@@ -1,0 +1,83 @@
+*{
+    
+margin: 0;
+padding: 0;
+}
+body
+{
+    background-color: #032A47;
+    background-image: url(./coding1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main
+{
+    color: rgb(160, 235, 170);
+}
+.main 
+{
+    font-family: 'Poppins', sans-serif;   
+    text-align: center;
+   
+}  
+.main h2{
+    color: red;
+    font-family:'Poppins', sans-serif; 
+    border-style:solid;
+    border-color: chartreuse;
+}
+.main button
+{
+    background-color: chocolate;
+    color: cornsilk;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+   
+}
+.test
+{
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+}
+.links
+{
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: chocolate;
+   
+}
+.links{
+    color: rgb(68, 42, 7);
+    font-size: large;
+    background-color: tomato;
+
+}
+h3{
+    text-align: center;
+    color: red;
+}
+.links a
+{
+    color: rgb(110, 6, 93);
+}
+.links a:link{
+    color: rgb(19, 214, 107);
+}
+.links a:visited
+{
+    color: royalblue;
+}
+.links a:hover
+{
+    color: salmon;
+}
+.links a:active
+{
+  color: rgb(26, 190, 182);
+}
+ul
+{
+    list-style-position: inside;
+    
+}

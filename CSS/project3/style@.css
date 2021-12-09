@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container
+{
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  background-color: white;
+  
+  
+  }
+  
+  .section1
+  {
+    margin-top: 70px;
+    text-align: center ;
+    padding-right: 500px;
+    font-weight:bolder;
+  }
+  .section2
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .section3, .section5{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding-left: 500px;
+    
+  }
+  .box1, .box2
+  {
+    padding: 20px 20px 10px 10px;
+
+    
+  }
+  label
+  {
+    display: block;
+    padding: 4px 5px;
+  }
+  input
+  {
+    border-radius: 20px;
+    height: 15px;
+    padding: 10px 50px;
+  }
+  .section4
+  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lbl1
+  {
+    padding: 20px 0px 0px 160px;
+  }
+  .lbl2
+  {
+    padding: 20px 0px 0px 50px;
+  }
+  .box
+  {
+    border: 2px solid rgb(32, 31, 31);
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  select
+  {
+     border-radius: 20px;
+     height: 35px;
+     
+     padding: 0px 50px;
+  }
+ 
+  .btn1, .btn2, .btn3, .btn4, .btn5, .btn6
+  {
+    padding: 5px 10px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: deepskyblue;
+  }
+  .btn5, .btn6
+  {
+  padding: 5px 35px;
+  margin-left: 20px;
+  }
+  div.box>input
+  {
+    border: none;
+    height: 25px;
+    padding: 50px 160px;
+  }

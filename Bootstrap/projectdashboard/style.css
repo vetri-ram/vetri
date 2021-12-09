@@ -1,0 +1,39 @@
+body
+{
+background-color: #f1f1f1;
+margin: 0;
+color: rgb(252, 252, 252);
+}
+
+.container-md
+{
+    background-color: rgb(107, 112, 101);
+    border: 2px solid rgb(252, 252, 252);
+}
+.p50
+{
+    padding: 50px;
+}
+.img
+{
+    height: 100px;
+    width:100px;
+}
+.color-1
+{
+    height: 500px;
+    background-color: chocolate;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.grids-container
+{
+    border: 1px solid rgb(204, 13, 13)!important;
+}
+.bg
+{
+    padding: 10px;
+    background-color: rgb(99, 43, 126);
+    border: 2px solid rgb(99, 45, 45);
+}

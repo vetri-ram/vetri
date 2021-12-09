@@ -1,0 +1,49 @@
+[
+    {
+        "model":"Samsung Galaxy S20 FE 5G",
+        "brand":"Samsung",
+        "mrp": 39990.00,
+        "price":38700.00,
+        "image":"https://m.media-amazon.com/images/I/81iwwbBvKpL._SL1500_.jpg",
+        "ram":"8GB",
+        "storage":"128 GB",
+        "camera":"32MP F2.2 Front Punch Hole Camera"
+
+    },
+
+    {
+        "model":"Samsung Galaxy S20 FE 5G",
+        "brand":"Samsung",
+        "mrp": 39990.00,
+        "price":38700.00,
+        "image":"https://m.media-amazon.com/images/I/81iwwbBvKpL._SL1500_.jpg",
+        "ram":"8GB",
+        "storage":"128 GB",
+        "camera":"32MP F2.2 Front Punch Hole Camera"
+
+    },
+
+    {
+        "model":"Samsung Galaxy S20 FE 5G",
+        "brand":"Samsung",
+        "mrp": 39990.00,
+        "price":38700.00,
+        "image":"https://m.media-amazon.com/images/I/81iwwbBvKpL._SL1500_.jpg",
+        "ram":"8GB",
+        "storage":"128 GB",
+        "camera":"32MP F2.2 Front Punch Hole Camera"
+
+    },
+
+    {
+        "model":"Samsung Galaxy S20 FE 5G",
+        "brand":"Samsung",
+        "mrp": 39990.00,
+        "price":38700.00,
+        "image":"https://m.media-amazon.com/images/I/81iwwbBvKpL._SL1500_.jpg",
+        "ram":"8GB",
+        "storage":"128 GB",
+        "camera":"32MP F2.2 Front Punch Hole Camera"
+
+    }
+]

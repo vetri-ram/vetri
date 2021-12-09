@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Tutorial</title>
+</head>
+<body>
+    <script>
+       //var str ='{"name":"subash","age":25}';
+       //alert(typeof(str));
+       //var b = JSON.parse(str);
+       //alert(typeof(b));
+        //document.write(b.name + " age is " + b.age);
+      
+       //var user = {
+            //name: "vetri",
+            //age: 33
+        //};
+             // alert(typeof(user));
+             //var str = JSON.stringify(user);
+             //alert(typeof(str));
+            // document.write(str);
+
+            var str = '{ "1":"subash", "gender":"male","age":25,"ismarried":"false","marks":[{ "English": 95, "Description":"Very Good"},{"Maths": 75,"Description":"Good"}],"average": 74,"hobbies":null,"address":{"street":"Thenna Mara salai","city":"Mayiladuthurai","pincode":609001}}';
+                var o=JSON.parse(str);
+                document.write("<br>Name : " + o["1"]);
+                document.write("<br>Address : " + o["address"]["street"]);
+                document.write("<br>English : " + o.marks[0].English);
+                document.write("<br>Description : " + o.marks[0]["Description"]);
+    </script>
+    
+</body>
+</html>
