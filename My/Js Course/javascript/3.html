@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+<style>
+    
+    .accordion {
+       
+      display:inline-flex ;
+      flex-direction: row-reverse;
+      background-color: deepskyblue;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+
+    .btn_accordion
+    {
+        margin-left: 900px;
+
+    }
+    
+    
+    /* .active, .accordion:hover {
+      background-color: #ccc; 
+    } */
+    
+    .panel {
+    display: flex;
+    
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+    .section4
+  {
+    display: flex;
+    flex-direction: row;    
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+  }
+  
+  
+  .lbl1
+  {
+      display: flex;
+      justify-content: space-between;
+    padding: 20px 30px 20px 60px;
+  }
+  
+  label .answer
+  {
+      margin: 10px 30px 20px 100px;
+  }
+  input
+  {
+    border-radius: 18px;
+    height: 50px;
+    padding: 30px 50px;
+    width: 100%;
+    border: 2px solid lightslategray;
+  }
+  select
+  {
+     border-radius: 18px;
+     height: 35px;
+     border: 2px solid lightslategray;
+     margin: 20px 10px;
+     padding: 0px 50px;
+  }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Accordion</h2>
+    
+    <button class="accordion btn_accordion">Section 1</button>
+    
+    <div class="panel">
+        <hr>
+         <div class="lbl1"> 
+            
+               <div class="box">
+                <label>Questions*</label>
+                   <input type="text">
+               </div>
+               <div class="">
+                <label class="answer">Answer for Questions*</label>
+                <select aria-placeholder="">
+                    <option>Answer</option>
+                    <option>True</option>
+                    <option>False</option>
+                </select>
+            </div>
+            
+            </div>
+            <hr> 
+    </div>
+    
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div> 
+         
+       
+    </div>
+    
+    
+    <button class="accordion">Section 3</button>
+    <div class="panel">
+
+        <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div> 
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div> 
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div>
+         
+
+         <div class="lbl1">
+            
+            <div class="box">
+             <label>Questions*</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label class="answer">Answer for Questions*</label>
+             <select aria-placeholder="">
+                 <option>Answer</option>
+                 <option>True</option>
+                 <option>False</option>
+             </select>
+         </div>
+         </div> 
+      
+    </div>
+    <button class="accordion">Section 4</button>
+    <div class="panel">
+      
+    </div>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
+    </body>
+    </html>
+    
