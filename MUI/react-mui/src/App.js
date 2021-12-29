@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-//import First from './components/First/First'
-import Sec from './components/First/Sec';
+//import Formvalid from './components/Formvalidation/FormValid';
+//import AddMember from './components/AddMembers/AddMember';
+import AddFields from './components/Addfields/AddFields';
+
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Sec/>
+    <div className="App" >
+     <AddFields/>
       </div>
   );
 }

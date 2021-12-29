@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+.main{
+    min-height: 98.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid lightslategray;
+    margin: 10px;
+    color: brown;
+}
