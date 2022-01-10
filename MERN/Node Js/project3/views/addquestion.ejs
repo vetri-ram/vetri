@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Add Questions</h1>
+    </header>
+    <div class="container">
+        <div class="side">
+            <div class="dropdown">
+                <input type="text" class="textbox"
+                placeholder="Coures & Exams" readonly>
+                <div class="option">
+                    <div><ion-icon name="documents-outline"></ion-icon><a href="/course">Manage Courses</a></div>
+                    <div><ion-icon name="document-text-outline"></ion-icon><a href="/exam">Manage Exams</a></div>
+                    <div><ion-icon name="checkmark-circle-outline"></ion-icon><a href="/viewquestion">Manage Questions</a></div>
+                    <div><ion-icon name="add-circle-outline"></ion-icon><a href="/addquestion">Add Questions</a></div>
+                    <div><ion-icon name="analytics-outline"></ion-icon><a href="/result">Results</a></div>
+                </div>
+            </div>
+            </div>
+            <div class="main">
+                <div class="section1">
+                    <p>Questions</p>
+                </div>
+                <hr>
+        <div class="section2">
+                   <div class="box1"> 
+                       <label>SELECT EXAMS*</label>
+                    <div class="Scrollbar">
+                        <select class="select" aria-placeholder="--Select Exam--">
+                            <option>AWS One</option>
+                            <option>Snow Flake One</option>
+                            <option>Week two</option>
+                        </select>
+                    </div>
+                    <label>END_DATE</label>
+                     <input type="date">
+                   </div>
+                   <div class="box2">
+                       <label>EXAM_DURATION</label>
+                       <input type="time" class="time">
+                       <label>START_DATE</label>
+                       <input type="date">
+                    </div>
+                    </div>
+                    <div class="section3">
+                        <div class="btn">
+                            <button class="btn1">True/False</button>
+                            <button class="btn2">MCQ(1-4)</button>
+                            <button class="btn3">MC(mul ans)</button>
+                            <button class="btn4">Writing</button>
+                            </div>
+                    </div>
+                    <hr>      
+        <div class="section4">
+            <div class="lbl1">
+             <label>Questions*</label>
+                <div class="box">
+                    <input type="text">
+                </div>
+             </div>
+             <div class="lbl2">
+                        <label>Answer for Questions*</label>
+                        <div class="">
+                            <select aria-placeholder="">
+                                <option>Answer</option>
+                                <option>True</option>
+                                <option>False</option>
+                            </select>
+                        </div>
+                        </div>
+            </div>
+            <hr>
+            <div class=section5>
+                <div class="btn">
+               <button class="btn5">Cancel</button>
+                <button class="btn6">ADD QUESTION</button>
+            </div>
+            </div>
+            </div>
+           </div>
+        </body>
+</html>
