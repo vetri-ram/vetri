@@ -35,6 +35,7 @@ const AddFields = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("InputFields", InputFields);
+        
     }
 
     const handleAddFields = () => {
@@ -43,7 +44,7 @@ const AddFields = () => {
 
     const handleRemoveFields = (index) => {
         const values = [...InputFields];
-        values.splice(index,1);
+        values.splice(1);
         setInputFields(values);
         
     }

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+// :root
+// {
+//     --app-color:#c51bb7;
+// }
+
+$app-color:#c51bb7;
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    //background: linear-gradient(to right, #1f4037, #99f2c8);
+    background-color:$app-color ;
+    font-family: 'Roboto', sans-serif;
+}
+.welcome_card
+{
+    background-color: beige;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 9px;
+}
+.welcome_card h2{
+    font-size: 25px;
+    color: maroon;
+}  
+.welcome_card p
+{
+    margin-top: 10px;
+    
+    color: lightslategrey;
+}
+.welcome_card .btn
+{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: $app-color;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}

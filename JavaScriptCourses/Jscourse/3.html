@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        // function foo()
+        // {
+        //     var a = 5;
+        //     var b = 10;
+
+        //     var c = a + b;
+        //     console.log(c);
+        // }
+
+        // foo();
+        function execute(a,b,cb)
+        {
+         var result = a + b;
+         cb(result);
+        }
+
+        execute(5,10,function(data){
+          console.log(data/2);
+        });
+        </script>
+</body>
+</html>

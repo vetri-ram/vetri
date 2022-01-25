@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+.main-container
+{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+    .sub-container
+    {
+    width: 50vw;
+    height: 70vh;
+    background-color: rgba(234, 242, 243, 0.479);
+    color: red;
+    align-self: center;
+    text-align: center;
+    border: 2px solid rgb(222, 228, 227);
+    border-radius: 10px;
+    
+    .sub-container h2 
+    {
+        margin-top: 30px;
+        align-content: center;
+        justify-content: center;
+    }
+    .loginform
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        .email
+        {
+            margin: 10px auto;
+            padding: 1rem;
+            border: 2px solid lightslategrey;
+            border-radius: 10px;
+            width: 400px;
+
+        }
+        .password
+        {
+            margin: 10px auto;
+            padding: 1rem;
+            border: 2px solid lightslategrey;
+            border-radius: 10px;
+            width: 400px;
+
+        }
+    }
+    .btn
+    {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+        background-color: lightseagreen;
+        border: 2px solid lightskyblue;
+        border-radius: 8px;
+        color: darkblue;
+    }
+    .output{
+        margin-top: 10px;
+        .showdetails{
+            margin: 5px;
+            padding: auto;
+            background-color: rgba(234, 242, 243, 0.479);
+            color: saddlebrown;
+            border: 2px solid red;
+        }
+    }
+   
+    
+    }
+}
