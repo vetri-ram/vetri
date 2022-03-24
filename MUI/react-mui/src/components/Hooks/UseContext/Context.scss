@@ -1,0 +1,29 @@
+.contextDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    height: 50vh;
+    width: 60vw;
+    margin: 20px;
+    h2{
+        margin: 20px;
+        font-size: 30px;
+    }
+    input{
+        display: block;
+        padding: 30px 60px;
+        border: 2px solid lightslategrey;
+    }
+    .btn
+    {
+        margin: 20px;
+        padding: 20px 50px;
+    border: 2px solid rgb(6, 89, 92);
+    background-color: #1B4F72;
+    color: #fff;
+    border-radius: 10px;
+    }
+
+}

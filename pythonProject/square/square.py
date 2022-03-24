@@ -1,0 +1,5 @@
+print("square")
+print("square")
+print("square")
+print("square")
+print("square")

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="viewquestion.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <h1>View Question</h1>
+    </header>
+    <div class="container">
+       
+            
+            
+            <div class="side">
+
+                <div class="dropdown">
+                    <input type="text" class="textbox"
+                    placeholder="Coures & Exams" readonly>
+                    <div class="option">
+                    <div><ion-icon name="documents-outline"></ion-icon><a href="courses.html">Manage Courses</a></div>
+                    <div><ion-icon name="document-text-outline"></ion-icon><a href="exam.html">Manage Exams</a></div>
+                    <div><ion-icon name="checkmark-circle-outline"></ion-icon><a href="viewquestion.html">Manage Questions</a></div>
+                    <div><ion-icon name="add-circle-outline"></ion-icon><a href="addquestion.html">Add Questions</a></div>
+                    <div><ion-icon name="analytics-outline"></ion-icon><a href="results.html">Results</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="section1">
+                    <div><ion-icon name="menu"></ion-icon>viewing All Question</div>
+                </div>
+                <hr>
+                <div class="section2">
+                    <select class="select1" placeholder="--select Courses--">
+                        <option value="0">--select Courses--</option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                    </select>
+                    <select class="select2">
+                        <option value="0">Items Per Page</option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                    </select>
+                    <select class="select3">
+                        <option value="0">Go To</option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                    </select>
+                </div>
+        <div class="section3">
+            <table>
+                <tr>
+                    <th>Question Title</th>
+                    <th>Exam Name</th>
+                    <th>Question Type</th>
+                    <th>Marks</th>
+                    <th>Action</th>
+                </tr>
+                    <tr>
+                        <td>Datawarehouse is a type of Database</td>
+                        <td>About Data-<br>Weekly Assessment</td>
+                        <td>True/False</td>
+                        <td>1</td>
+                        <td class="icons"><i class="fas fa-pencil-alt pencil"></i>
+                            <i class="far fa-trash-alt trash"></i>
+                            <i class="far fa-eye-slash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Staging area is used on Data warehouse</td>
+                        <td>About Data- <br> Weekly Assessment</td>
+                        <td>True/False</td>
+                        <td>1</td>
+                        <td class="icons"><i class="fas fa-pencil-alt pencil"></i>
+                            <i class="far fa-trash-alt trash"></i>
+                            <i class="far fa-eye-slash"></i>
+                        </td>
+                    </tr>
+                
+            </table>
+                   
+        </div>
+                   
+        
+    </div>
+    
+</body>
+</html>

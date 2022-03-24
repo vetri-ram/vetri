@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.homeDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    height: 90vh;
+    width: 50vw;
+}
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #F01F0E;
+    padding: 20px;
+    font-size: 40px;
+}
+.sidebarDiv{
+    height: 50vh;
+    width: 250px;
+   
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    :link{
+        margin: 10px;
+        font-size: 30px;
+        text-decoration: none;
+    }
+}
+.effectdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    height: 50vh;
+    width: 60vw;
+    h2{
+        margin-bottom: 50px;
+    }
+    .btn{
+        margin: 20px;
+        padding: 20px 50px;
+    border: 2px solid rgb(6, 89, 92);
+    background-color: #1B4F72;
+    color: #fff;
+    border-radius: 10px;
+    }
+}
+
+.indexDiv{
+    display: flex;
+    .sidemenu{
+        flex: 30%;
+    }
+}

@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.animateMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.animatetranslate{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.translateanimateDiv, .rotateanimateDiv, .scaleanimateDiv, .skewanimateDiv{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+.transbox1{
+    
+    background: red;
+    transition: 1s;
+}
+
+.transbox1:hover{
+    transition: 1s;
+    transform: translateX(200px)
+}
+.transbox2{
+    
+    
+    background: blue;
+    transition: 1s;
+    
+}
+.transbox2:hover{
+    transition: 1s;
+    transform: translateY(-200px)
+}
+.transbox3{
+    
+    background: green;
+    transition: 1s;
+}
+.transbox3:hover{
+    transition: 1s;
+    transform: translate(-360px)
+}
+.transbox4{
+    
+    background: rgb(29, 102, 136);
+    transition: 1s;
+}
+.transbox4:hover{
+    transition: 1s;
+    transform: translate(200px,-200px);
+}
+.transbox5{
+    
+    background: #0F73DC;
+    transition: 1s;
+}
+.transbox5:hover{
+    transition: 1s;
+    transform: translate(-500px,-500px);
+}
+.rotatebox1{
+    background: #C39BD3;
+    transition: 1s;
+}
+.rotatebox1:hover{
+    transition: 1s;
+    transform: rotateX(360deg);
+}
+.rotatebox2{
+    background: #A9CCE3 ;
+    transition: 1s;
+}
+.rotatebox2:hover{
+    transition: 1s;
+    transform: rotateX(-360deg);
+}
+.rotatebox3{
+    background: #85C1E9 ;
+    transition: 1s;
+}
+.rotatebox3:hover{
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+.rotatebox4{
+    background: #7DCEA0;
+    transition: 1s;
+}
+.rotatebox4:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+.rotatebox5{
+    background: #F9E79F;
+    transition: 1s;
+}
+.rotatebox5:hover{
+    transition: 1s;
+    transform: rotateZ(360deg);
+}
+.scalebox1{
+    background: #C0392B;
+    transition: 1s;
+}
+.scalebox1:hover{
+    transition: 1s;
+    transform: scaleX(2);
+}
+.scalebox2{
+    background: #9B59B6;
+    transition: 1s;
+}
+.scalebox2:hover{
+    transition: 1s;
+    transform: scaleX(-2);
+}
+.scalebox3{
+    background: #2980B9;
+    transition: 1s;
+}
+.scalebox3:hover{
+    transition: 1s;
+    transform: scaleY(2);
+}
+.scalebox4{
+    background: #1ABC9C ;
+    transition: 1s;
+}
+.scalebox4:hover{
+    transition: 1s;
+    transform: scaleY(-2);
+}
+.scalebox5{
+    background: #16A085;
+    transition: 1s;
+}
+.scalebox5:hover{
+    transition: 1s;
+    transform: scale(5);
+}
+.skewbox1{
+    background: #16A085;
+    transition: 1s;
+}
+.skewbox1:hover{
+    transition: 1s;
+    transform: skew(10deg);
+}
+.skewbox2{
+    background: #2E4053;
+    transition: 1s;
+}
+.skewbox2:hover{
+    transition: 1s;
+    transform: skewX(-60deg);
+}
+.skewbox3{
+    background: #D35400;
+    transition: 1s;
+}
+.skewbox3:hover{
+    transition: 1s;
+    transform: skewX(60deg);
+}
+.skewbox4{
+    background: #3498DB;
+    transition: 1s;
+}
+.skewbox4:hover{
+    transition: 1s;
+    transform: skewY(60deg);
+}
+.skewbox5{
+    background: #16A085;
+    transition: 1s;
+}
+.skewbox5:hover{
+    transition: 1s;
+    transform: skewY(-60deg);
+}

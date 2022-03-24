@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;1,300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inputField-maindiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h4{
+        margin: 50px;
+        background-color: #34495E;
+        border: 2px solid #2C3E50;
+        border-radius: 10px;
+        padding: 20px 50px;
+        color: #AED6F1;
+        font-size: 2rem;
+    }
+}

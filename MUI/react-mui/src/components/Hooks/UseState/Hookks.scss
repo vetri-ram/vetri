@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;1,300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.hookks-mainDiv
+{
+    
+.heading
+{
+    display: flex;
+    justify-content: center;
+    
+    color: crimson;
+    
+    
+}
+.main-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    height: 60vh;
+    width: 60vw;
+}
+.btn
+{
+    margin: 20px;
+    padding: 20px 50px;
+    border: 2px solid rgb(6, 89, 92);
+    background-color: #1B4F72;
+    color: #fff;
+    border-radius: 10px;
+}
+.countDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.content_btn
+{
+    
+    padding: 20px 50px;
+    border: 2px solid rgb(6, 89, 92);
+    background-color: #1B4F72;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.effectDiv{
+    margin:30px
+}
+}

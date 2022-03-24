@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Ball{
+    animation: Ball 2s ease-out infinite alternate;
+    }
+@keyframes Ball{
+    100%{
+        transform: translateX(-280px) translateY(-120px);
+    }
+}
+
+#RightLeg{
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: RightLeg 2s ease-in-out infinite alternate;
+}
+@keyframes RightLeg{
+    100%{
+        transform: rotate(12deg) ;
+    }
+}
+#RightHand{
+    transform-origin: top;
+    transform-box: fill-box;
+    animation: RightHand 2s ease-in-out infinite alternate-reverse;
+}
+@keyframes RightHand{
+    100%{
+        transform: rotate(-10deg) ;
+    }
+}

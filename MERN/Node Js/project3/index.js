@@ -22,4 +22,6 @@ app.get('/addquestion', (req,res) => {
 app.get('/result', (req, res) => {
     res.render('result');
 });
-app.listen(3000);
+app.listen(3000,()=>{
+    console.log("Server is Running on port 3000");
+});

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to right, #ad5389, #3c1053);
+
+    .container{
+     
+        .login-title{
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+          
+           
+            .login-btn{
+                margin:10px;
+                border-radius: 10px;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        }
+    }
+}

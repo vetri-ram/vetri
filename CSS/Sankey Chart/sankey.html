@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Tutorial</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .paragraph1{
+            font-size: 20px;
+            background: rgb(134, 62, 62);
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p id="P-one"> Hello , Hai Subash</p>
+    <p  class="paragraph1"> Hello , Hai Friends</p>
+    <p  class="paragraph1"> Hello , Hai Friends</p>
+    <p  class="paragraph1"> Hello , Hai Friends</p>
+    <p  class="paragraph1"> Hello , Hai Friends</p>
+    <p class="paragraph1"> Hello , Hai Friends</p>
+
+
+
+      <script>
+        d3.select("p").style("color","red");
+        d3.select("p").text("hello, hai vetri");
+
+        d3.select("#P-one").style("color","green");
+
+        d3.selectAll("p").style("color","violet");
+        d3.selectAll("p").text("hello, hai Subashvetri");
+      </script>
+
+    
+</body>
+</html>
